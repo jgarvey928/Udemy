@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Section03
+ProjectName            :=TestProject
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Comp_Sci/Programming/Udemy_C_Programming_For_Beginners/Workspace
-ProjectPath            :=C:/Comp_Sci/Programming/Udemy_C_Programming_For_Beginners/Workspace/Workspace
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Workspace
+ProjectPath            :=C:/Comp_Sci/Programming/Udemy_C_Programming_For_Beginners/Workspace/TestProject
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/TestProject
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Comp_Sci/Programming/Udemy_C_Programming_For_Beginners/Workspace/Workspace/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Comp_Sci/Programming/Udemy_C_Programming_For_Beginners/Workspace/TestProject/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 

@@ -1,5 +1,5 @@
 [{
-  "file": "C:\\Comp_Sci\\Programming\\Udemy_C_Programming_For_Beginners\\Workspace\\Workspace\\main.c",
-  "directory": "C:\\Comp_Sci\\Programming\\Udemy_C_Programming_For_Beginners\\Workspace\\Workspace",
-  "command": "C:/cygwin64/bin/gcc.exe -c C:\\Comp_Sci\\Programming\\Udemy_C_Programming_For_Beginners\\Workspace\\Workspace\\main.c -o C:\\Comp_Sci\\Programming\\Udemy_C_Programming_For_Beginners\\Workspace\\Workspace\\main.c.o  -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+  "file": "C:\\Comp_Sci\\Programming\\Udemy_C_Programming_For_Beginners\\Workspace\\TestProject\\main.c",
+  "directory": "C:\\Comp_Sci\\Programming\\Udemy_C_Programming_For_Beginners\\Workspace\\TestProject",
+  "command": "C:/cygwin64/bin/gcc.exe -c C:\\Comp_Sci\\Programming\\Udemy_C_Programming_For_Beginners\\Workspace\\TestProject\\main.c -o C:\\Comp_Sci\\Programming\\Udemy_C_Programming_For_Beginners\\Workspace\\TestProject\\main.c.o  -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
  }]
